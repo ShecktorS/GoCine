@@ -1,0 +1,84 @@
+.Tickets {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
+  .ticketContainer {
+    background: #1f1f1f;
+    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
+
+    @include tablet {
+      width: 90%;
+    }
+    @include mobile {
+      width: 90%;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    .day {
+      margin: 50px 0 13px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    hr {
+      margin: 0 auto 13px;
+      width: 75%;
+    }
+
+    .dayTickets {
+      min-height: 150px;
+      width: 75%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      @include mobile {
+        width: 95%;
+      }
+    }
+  }
+
+  .ticketToPrintContainer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    z-index: -5;
+    backdrop-filter: blur(10px) grayscale(0.5);
+    transition: all 0.35s ease;
+    cursor: pointer;
+
+    .ticketToPrint {
+      transition: all 0.35s ease;
+      transform: translate(300px);
+      opacity: 0;
+    }
+
+    .moveToMid {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+
+  .showContainer {
+    opacity: 1;
+    z-index: 10;
+  }
+}

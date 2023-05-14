@@ -1,0 +1,51 @@
+.FormInput {
+  position: relative;
+  width: 100%;
+  max-width: 275px;
+  height: 2.5rem;
+  margin: 0 auto;
+
+  .input {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 20px;
+    letter-spacing: $letterSpacing;
+    background-color: $grey-50;
+    color: $grey-800;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      font-size: 0.75rem;
+      color: $grey-800;
+      text-transform: capitalize;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+
+  .subInput {
+    width: 100%;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 20px;
+    letter-spacing: $letterSpacing;
+    font-weight: bold;
+    background-color: $light-blue;
+    color: $grey-800;
+    cursor: pointer;
+
+    transition: $transition;
+
+    &:hover {
+      background-color: $blue;
+      color: $grey-50;
+    }
+  }
+}
