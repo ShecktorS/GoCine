@@ -47,6 +47,3 @@
  
    <li>Francesca : <a href = "https://github.com/pieradellafrancesca" </a>  GitHub <img src="https://th.bing.com/th/id/R.3e3e291c09c21b056629ff46f488562d?rik=dGv4bFO%2bpCQi6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529753.png&ehk=kIz1ZMtCzccmlp%2bPofpoO8qYNPHS76KGNm%2f6oCXSes4%3d&risl=&pid=ImgRaw&r=0" whidth="18" height="16"/> 
  || <a href ="https://www.linkedin.com/in/francesca-pierini/"</a> LinkedIn <img src="https://www.endupack.com/wp-content/uploads/2019/06/linkedin-icon-logo-png-transparent.png"  whidth="20" height="16"/></li>
- 
-   <li>Zakaria : <a href = "https://github.com/ziko2001" </a>  GitHub <img src="https://th.bing.com/th/id/R.3e3e291c09c21b056629ff46f488562d?rik=dGv4bFO%2bpCQi6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529753.png&ehk=kIz1ZMtCzccmlp%2bPofpoO8qYNPHS76KGNm%2f6oCXSes4%3d&risl=&pid=ImgRaw&r=0" whidth="18" height="16"/> 
- || <a href =""</a> LinkedIn <img src="https://www.endupack.com/wp-content/uploads/2019/06/linkedin-icon-logo-png-transparent.png"  whidth="20" height="16"/></li>
